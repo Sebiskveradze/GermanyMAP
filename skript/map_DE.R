@@ -44,6 +44,10 @@ germany_districts |>
     fill = NA,
     color = 'black',
     linewidth = 0.1
+  ) +
+  theme_void() +
+  theme(
+    legend.position = "none"
   )
 
 
